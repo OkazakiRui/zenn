@@ -7,5 +7,10 @@
   "license": "MIT",
   "dependencies": {
     "zenn-cli": "^0.1.109"
+  },
+  "scripts": {
+    "dev": "zenn preview",
+    "article": "zenn new:article",
+    "book": "zenn new:book"
   }
 }
